@@ -1,0 +1,43 @@
+.blogs {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post {
+  margin: 10px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.author {
+  margin-top: 5px;
+}
+.author span {
+  font-style: italic;
+}
+
+.parent-tag {
+  /* width: auto;
+  border: 1px solid black; */
+}
+.tag {
+  /* color: blue;
+  border-bottom: 1px solid blue; */
+  /* font-style: ; */
+  width: auto;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  margin-left: 10px;
+  font-style: inherit;
+  border-bottom: 1px solid blue;
+  color: blue;
+}
